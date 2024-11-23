@@ -30,7 +30,7 @@ async function connect() {
 			}
 		});
 
-		console.log('Waiting for messages...');
+		console.log('Waiting for messages....');
 	} catch (ex) {
 		console.error(`Connection error: ${ex.message}`);
 	}
